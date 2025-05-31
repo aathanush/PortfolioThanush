@@ -1,68 +1,13 @@
-<tui-app-bar class="black">
-    <button
-        appearance=""
-        tuiButton
-        tuiSlot="left"
-        type="button"
-    >
-		<a tuiLink href="/">
-			Home
-		</a>
-        
-    </button>
-	<button
-        appearance=""
-        tuiButton
-        tuiSlot="left"
-        type="button"
-    >
-		<a tuiLink href="/achievements">
-			Achievements
-		</a>
-    </button>
-	<button
-        appearance=""
-        tuiButton
-        tuiSlot="left"
-        type="button"
-    >
-		<a tuiLink href="/courses">
-			Courses Completed
-		</a>
-        
-    </button>
-	<button
-        appearance=""
-        tuiButton
-        tuiSlot="left"
-        type="button"
-    >
-		<a tuiLink href="/experience">
-			Experience
-		</a>
-    </button>
-	<button
-        appearance=""
-        tuiButton
-        tuiSlot="left"
-        type="button"
-    >
-		<a tuiLink href="/qualifications">
-			Qualifications
-		</a>
-    </button>
-	<button
-        appearance=""
-        tuiButton
-        tuiSlot="left"
-        type="button"
-		
-    >
-		<a tuiLink href="/publications">
-			Publications
-		</a>
-    </button>
-</tui-app-bar>
+<tui-segmented class="navigation">
+
+	    <a [routerLink]="routes.about">About</a>
+		<a  [routerLink]="routes.achievements">Achievements</a>
+		<a  [routerLink]="routes.courses">Courses</a>
+		<a  [routerLink]="routes.experience">Experience</a>
+		<a  [routerLink]="routes.publications">Publications</a>
+		<a  [routerLink]="routes.qualifications">Qualifications</a>
+
+	</tui-segmented>
 
 <router-outlet></router-outlet>
 
