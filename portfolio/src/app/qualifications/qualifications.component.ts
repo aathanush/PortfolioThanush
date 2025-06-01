@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class QualificationsComponent {
 
-  private readonly qualifications = [
+  readonly qualifications = [
   {
     "institution": "Thiagarajar College of Engineering",
     "degree": "BTech in Computer Science and Business Systems",

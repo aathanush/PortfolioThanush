@@ -1,14 +1,25 @@
-import { Component } from '@angular/core';
-
+import {NgForOf} from '@angular/common';
+import { Component} from '@angular/core';
+import {FormsModule} from '@angular/forms';
+import {TuiTitle} from '@taiga-ui/core';  
+import { TuiAccordion } from '@taiga-ui/kit';
+import {TuiConnected} from '@taiga-ui/kit';
+import {TuiCell} from '@taiga-ui/layout';
 @Component({
   selector: 'app-experience',
-  imports: [],
+  imports: [
+	        FormsModule,
+	        NgForOf,
+	        TuiAccordion,
+	        TuiConnected,
+	        TuiTitle,
+	    ],
   templateUrl: './experience.component.html',
   styleUrl: './experience.component.css'
 })
 export class ExperienceComponent {
 
-  private readonly experience =[{
+  readonly experience =[{
     org: "Thiagarajar College of Engineering Madurai, India",
     role: "In‑lab intern",
     period: "2021",
@@ -45,4 +56,7 @@ export class ExperienceComponent {
   }
 
   ]
+
+ 
+	    
 }
