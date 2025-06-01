@@ -12,7 +12,6 @@ import {TuiConnected} from '@taiga-ui/kit';
 	        NgForOf,
 	        TuiAccordion,
 	        TuiConnected,
-	        TuiTitle,
 	    ],
   templateUrl: './qualifications.component.html',
   styleUrl: './qualifications.component.css'
@@ -26,7 +25,7 @@ export class QualificationsComponent {
     "location": "Nagercoil, Kanniyakumari, Tamil Nadu",
     "completionYear": 2018,
     "gradingSystem": "Out of 500",
-    "marks": "87.4 / 100"
+    "marks": "87.4% (437/500)"
   },
   {
     "institution": "Kendriya Vidyalaya",
@@ -34,7 +33,7 @@ export class QualificationsComponent {
     "location": "Nagercoil, Kanniyakumari, Tamil Nadu",
     "completionYear": 2020,
     "gradingSystem": "Out of 500",
-    "marks": "94.2 / 500"
+    "marks": "94.2% (471/500)"
   },
   {
     "institution": "Thiagarajar College of Engineering",

@@ -1,30 +1,35 @@
+import { NgForOf } from '@angular/common';
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { TuiTitle } from '@taiga-ui/core';
+import { TuiAccordion, TuiConnected, TuiTile, TuiTiles } from '@taiga-ui/kit';
+import { TuiHeader } from '@taiga-ui/layout';
 
 @Component({
   selector: 'app-achievements',
-  imports: [],
+  imports: [TuiTile,TuiTiles,TuiTitle, TuiHeader,NgForOf, FormsModule, TuiConnected, TuiAccordion],
   templateUrl: './achievements.component.html',
   styleUrl: './achievements.component.css'
 })
 export class AchievementsComponent {
-  private readonly achievements = [
+   readonly achievements = [
   {
     "year": 2021,
     "title": "Elite",
     "event": "Data Science for Engineers NPTEL Exam",
-    "details": ""
+    "details": "Obtained elite grade in the NPTEL exam - Data Science for Engineers and declared as winner for the problem statement"
   },
   {
     "year": 2022,
     "title": "Published and Presented Conference Paper",
     "event": "ICMSE’22",
-    "details": ""
+    "details": "More details available on the publications section"
   },
   {
     "year": 2022,
     "title": "Winner",
     "event": "Smart India Hackathon (SIH)",
-    "details": ""
+    "details": "Developed a Garbage Classification System using Convolutional Neural Networks (CNN)"
   },
   {
     "year": 2022,
@@ -42,7 +47,7 @@ export class AchievementsComponent {
     "year": 2024,
     "title": "Consolation Prize",
     "event": "FAER Scholar Awards",
-    "details": "For the academic year 2024–25"
+    "details": "For the academic year 2024–25. Developed a dynamic vehicle routing system using Deep Reinforcement Learning"
   }
 ]
 

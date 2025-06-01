@@ -11,7 +11,6 @@ import {TuiConnected} from '@taiga-ui/kit';
 	        NgForOf,
 	        TuiAccordion,
 	        TuiConnected,
-	        TuiTitle,
 	    ],
   templateUrl: './experience.component.html',
   styleUrl: './experience.component.css'

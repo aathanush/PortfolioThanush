@@ -10,147 +10,180 @@ export class CoursesComponent {
 
   private readonly courses = [
   {
-    "title": "Advanced C# Programming in .NET Core",
-    "issuer": "EDUCBA",
-    "issueDate": "May 2025",
-    "credentialId": "D4FVJBNRL2X6"
+    "Name": "Python",
+    "Url": "",
+    "Authority": "Kaggle",
+    "Completion": "",
+    "License": ""
   },
   {
-    "title": "Google IT Automation with Python",
-    "issuer": "Google",
-    "issueDate": "May 2025",
-    "credentialId": "96ALZ26P8E2C",
-    "skills": ["Python (Programming Language)", "Google Cloud Platform (GCP)"]
+    "Name": "Intro to Machine Learning",
+    "Url": "",
+    "Authority": "Kaggle",
+    "Completion": "",
+    "License": ""
   },
   {
-    "title": "Introduction to Git and GitHub",
-    "issuer": "Google",
-    "issueDate": "Dec 2024",
-    "credentialId": "PA55W5IC77ZV"
+    "Name": "Intermediate Machine Learning",
+    "Url": "",
+    "Authority": "Kaggle",
+    "Completion": "",
+    "License": ""
   },
   {
-    "title": "Troubleshooting and Debugging Techniques",
-    "issuer": "Google",
-    "issueDate": "Dec 2024",
-    "credentialId": "95M95CBE0VTG",
-    "skills": ["Problem Solving"]
+    "Name": "Data Science for Engineers",
+    "Url": "",
+    "Authority": "NPTEL",
+    "Completion": "",
+    "License": ""
   },
   {
-    "title": "Using Python to Interact with the Operating System",
-    "issuer": "Google",
-    "issueDate": "Dec 2024",
-    "credentialId": "0ASOSV69KXUK",
-    "skills": ["Python (Programming Language)"]
+    "Name": "Time Management by Ankur Warikoo",
+    "Url": "",
+    "Authority": "WebVeda",
+    "Completion": "",
+    "License": ""
   },
   {
-    "title": "Angular for Front End Engineers",
-    "issuer": "Codio",
-    "issueDate": "Jul 2024",
-    "credentialId": "6MK6YG5T7CBH",
-    "skills": ["Angular"]
+    "Name": "Java",
+    "Url": "",
+    "Authority": "Spoken Tutorial",
+    "Completion": "",
+    "License": ""
   },
   {
-    "title": "Crash Course on Python",
-    "issuer": "Google",
-    "issueDate": "Jul 2024",
-    "credentialId": "FAX5ZMM8KVPG"
+    "Name": "C",
+    "Url": "",
+    "Authority": "Spoken Tutorial",
+    "Completion": "",
+    "License": ""
   },
   {
-    "title": "Introduction to Data Visualization in Qlik Sense",
-    "issuer": "Coursera Instructor Network",
-    "issueDate": "Jul 2024",
-    "credentialId": "DB99WWWQ43JC"
+    "Name": "C++",
+    "Url": "",
+    "Authority": "Spoken Tutorial",
+    "Completion": "",
+    "License": ""
   },
   {
-    "title": "Terraform Fundamentals",
-    "issuer": "Google Cloud",
-    "issueDate": "Jun 2024",
-    "credentialId": "NYVDFVJQHUCY",
-    "skills": ["Google Cloud Platform (GCP)"]
+    "Name": "Getting started with Robotic Process Automation",
+    "Url": "",
+    "Authority": "Automation Anywhere",
+    "Completion": "",
+    "License": ""
   },
   {
-    "title": "Creating New BigQuery Datasets and Visualizing Insights",
-    "issuer": "Google Cloud",
-    "issueDate": "Feb 2024",
-    "credentialId": "365VDQXLZGQ7",
-    "skills": ["Looker (Software)", "SQL", "Google BigQuery", "Google Cloud Platform (GCP)"]
+    "Name": "Introduction to AI",
+    "Url": "",
+    "Authority": "University of Helsinki",
+    "Completion": "Jan 2023",
+    "License": ""
   },
   {
-    "title": "Exploring and Preparing your Data with BigQuery",
-    "issuer": "Google Cloud",
-    "issueDate": "Feb 2024",
-    "credentialId": "6D97WRJM8FBD",
-    "skills": ["Google Cloud Platform (GCP)"]
+    "Name": "Certificate of Participation in The Tri-NIT Hackathon",
+    "Url": "https://unstop.com/certificate-preview/c7151e10-e440-40ba-b672-08e2d873446e?utm_campaign",
+    "Authority": "Unstop (formerly Dare2Compete)",
+    "Completion": "Apr 2023",
+    "License": "c7151e10-e440-40ba-b672-08e2d873446e"
   },
   {
-    "title": "Linear Algebra for Machine Learning and Data Science",
-    "issuer": "DeepLearning.AI",
-    "issueDate": "Feb 2024",
-    "credentialId": "DQSQ5TBDAXMY"
+    "Name": "The Science of Well-Being",
+    "Url": "https://www.coursera.org/account/accomplishments/certificate/FHEDSGRXK9BP",
+    "Authority": "Coursera",
+    "Completion": "Jul 2023",
+    "License": "FHEDSGRXK9BP"
   },
   {
-    "title": "Working with BigQuery",
-    "issuer": "Coursera Project Network",
-    "issueDate": "Feb 2024",
-    "credentialId": "V7EB97DHCUBX",
-    "skills": ["Google Cloud Platform (GCP)"]
+    "Name": "Exploring and Preparing your Data with BigQuery",
+    "Url": "https://www.coursera.org/account/accomplishments/records/6D97WRJM8FBD",
+    "Authority": "Google Cloud",
+    "Completion": "Feb 2024",
+    "License": "6D97WRJM8FBD"
   },
   {
-    "title": "The Science of Well-Being",
-    "issuer": "Coursera",
-    "issueDate": "Jul 2023",
-    "credentialId": "FHEDSGRXK9BP",
-    "skills": ["Wellness"]
+    "Name": "Working with BigQuery",
+    "Url": "https://www.coursera.org/account/accomplishments/records/V7EB97DHCUBX",
+    "Authority": "Coursera Project Network",
+    "Completion": "Feb 2024",
+    "License": "V7EB97DHCUBX"
   },
   {
-    "title": "Certificate of Participation in The Tri-NIT Hackathon",
-    "issuer": "Unstop",
-    "issueDate": "Apr 2023",
-    "credentialId": "c7151e10-e440-40ba-b672-08e2d873446e",
-    "skills": ["Machine Learning", "Teamwork", "Python", "Django"]
+    "Name": "Creating New BigQuery Datasets and Visualizing Insights",
+    "Url": "https://www.coursera.org/account/accomplishments/verify/365VDQXLZGQ7",
+    "Authority": "Google Cloud ",
+    "Completion": "Feb 2024",
+    "License": "365VDQXLZGQ7"
   },
   {
-    "title": "Introduction to AI",
-    "issuer": "University of Helsinki",
-    "issueDate": "Jan 2023"
+    "Name": "Linear Algebra for Machine Learning and Data Science",
+    "Url": "https://www.coursera.org/account/accomplishments/records/DQSQ5TBDAXMY",
+    "Authority": "DeepLearning.AI",
+    "Completion": "Feb 2024",
+    "License": "DQSQ5TBDAXMY"
   },
   {
-    "title": "CC",
-    "issuer": "Spoken Tutorial"
+    "Name": "Terraform Fundamentals",
+    "Url": "https://www.coursera.org/account/accomplishments/records/NYVDFVJQHUCY",
+    "Authority": "Google Cloud",
+    "Completion": "Jun 2024",
+    "License": "NYVDFVJQHUCY"
   },
   {
-    "title": "C++",
-    "issuer": "Spoken Tutorial"
+    "Name": "Crash Course on Python",
+    "Url": "https://www.coursera.org/account/accomplishments/records/FAX5ZMM8KVPG",
+    "Authority": "Google",
+    "Completion": "Jul 2024",
+    "License": "FAX5ZMM8KVPG"
   },
   {
-    "title": "Data Science for Engineers",
-    "issuer": "NPTEL"
+    "Name": "Angular for Front End Engineers",
+    "Url": "https://www.coursera.org/account/accomplishments/records/6MK6YG5T7CBH",
+    "Authority": "Codio",
+    "Completion": "Jul 2024",
+    "License": "6MK6YG5T7CBH"
   },
   {
-    "title": "Getting started with Robotic Process Automation",
-    "issuer": "Automation Anywhere"
+    "Name": "Introduction to Data Visualization in Qlik Sense",
+    "Url": "https://www.coursera.org/account/accomplishments/records/DB99WWWQ43JC",
+    "Authority": "Coursera Instructor Network",
+    "Completion": "Jul 2024",
+    "License": "DB99WWWQ43JC"
   },
   {
-    "title": "Intermediate Machine Learning",
-    "issuer": "Kaggle"
+    "Name": "Using Python to Interact with the Operating System",
+    "Url": "https://www.coursera.org/account/accomplishments/records/0ASOSV69KXUK",
+    "Authority": "Google",
+    "Completion": "Dec 2024",
+    "License": "0ASOSV69KXUK"
   },
   {
-    "title": "Intro to Machine Learning",
-    "issuer": "Kaggle"
+    "Name": "Introduction to Git and GitHub",
+    "Url": "https://www.coursera.org/account/accomplishments/records/PA55W5IC77ZV",
+    "Authority": "Google",
+    "Completion": "Dec 2024",
+    "License": "PA55W5IC77ZV"
   },
   {
-    "title": "Java",
-    "issuer": "Spoken Tutorial"
+    "Name": "Troubleshooting and Debugging Techniques",
+    "Url": "https://www.coursera.org/account/accomplishments/records/95M95CBE0VTG",
+    "Authority": "Google",
+    "Completion": "Dec 2024",
+    "License": "95M95CBE0VTG"
   },
   {
-    "title": "Python",
-    "issuer": "Kaggle"
+    "Name": "Google IT Automation with Python",
+    "Url": "https://www.coursera.org/account/accomplishments/specialization/96ALZ26P8E2C",
+    "Authority": "Google",
+    "Completion": "May 2025",
+    "License": "96ALZ26P8E2C"
   },
   {
-    "title": "Time Management by Ankur Warikoo",
-    "issuer": "WebVeda"
+    "Name": "Advanced C# Programming in .NET Core",
+    "Url": "https://www.coursera.org/account/accomplishments/verify/D4FVJBNRL2X6",
+    "Authority": "EDUCBA",
+    "Completion": "May 2025",
+    "License": "D4FVJBNRL2X6"
   }
 ]
-
 
 }
