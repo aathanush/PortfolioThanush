@@ -1,14 +1,20 @@
-import { Component } from '@angular/core';
+	import {AsyncPipe, NgForOf} from '@angular/common';
+	import {ChangeDetectionStrategy, Component} from '@angular/core';
+	import {TuiTable} from '@taiga-ui/addon-table';
+	import {TuiFormatNumberPipe, TuiTitle} from '@taiga-ui/core';
+import { TuiHeader } from '@taiga-ui/layout';
 
 @Component({
   selector: 'app-courses',
-  imports: [],
+  imports: [TuiTitle, NgForOf, TuiHeader, TuiTable],
   templateUrl: './courses.component.html',
   styleUrl: './courses.component.css'
 })
 export class CoursesComponent {
 
-  private readonly courses = [
+  readonly columns = ["Name","Url","Authority","Completion","License"]
+
+   readonly courses = [
   {
     "Name": "Python",
     "Url": "",

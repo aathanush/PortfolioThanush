@@ -7,7 +7,7 @@ import { TuiHeader } from '@taiga-ui/layout';
 
 @Component({
   selector: 'app-achievements',
-  imports: [TuiTile,TuiTiles,TuiTitle, TuiHeader,NgForOf, FormsModule, TuiConnected, TuiAccordion],
+  imports: [TuiTiles,TuiTitle, TuiHeader,NgForOf, FormsModule, TuiConnected, TuiAccordion],
   templateUrl: './achievements.component.html',
   styleUrl: './achievements.component.css'
 })

@@ -4,6 +4,7 @@ import {FormsModule} from '@angular/forms';
 import {TuiTitle} from '@taiga-ui/core';  
 import { TuiAccordion } from '@taiga-ui/kit';
 import {TuiConnected} from '@taiga-ui/kit';
+import { TuiHeader } from '@taiga-ui/layout';
 
 @Component({
   selector: 'app-qualifications',
@@ -12,6 +13,8 @@ import {TuiConnected} from '@taiga-ui/kit';
 	        NgForOf,
 	        TuiAccordion,
 	        TuiConnected,
+          TuiTitle,
+          TuiHeader
 	    ],
   templateUrl: './qualifications.component.html',
   styleUrl: './qualifications.component.css'
