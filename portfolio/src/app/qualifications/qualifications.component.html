@@ -1,1 +1,16 @@
-<p>qualifications works!</p>
+<tui-accordion tuiConnected class="accordion">
+    <ng-container *ngFor="let item of qualifications ; let index = index">
+        <tui-accordion-item>
+            {{qualifications[index].degree}}, {{qualifications[index].institution}} <br> {{qualifications[index].location}} - <b>{{qualifications[index].completionYear}}</b>
+            <ng-template tuiAccordionItemContent>
+                <ul>
+                    <li>
+                        {{item.gradingSystem}} : {{item.marks}}
+                    </li>
+                    
+                </ul>
+                
+	        </ng-template>
+        </tui-accordion-item>
+    </ng-container>
+</tui-accordion>

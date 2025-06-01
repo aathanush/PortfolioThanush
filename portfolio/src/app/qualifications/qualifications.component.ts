@@ -1,22 +1,25 @@
 import { Component } from '@angular/core';
+import {NgForOf} from '@angular/common';
+import {FormsModule} from '@angular/forms';
+import {TuiTitle} from '@taiga-ui/core';  
+import { TuiAccordion } from '@taiga-ui/kit';
+import {TuiConnected} from '@taiga-ui/kit';
 
 @Component({
   selector: 'app-qualifications',
-  imports: [],
+  imports: [
+	        FormsModule,
+	        NgForOf,
+	        TuiAccordion,
+	        TuiConnected,
+	        TuiTitle,
+	    ],
   templateUrl: './qualifications.component.html',
   styleUrl: './qualifications.component.css'
 })
 export class QualificationsComponent {
 
   readonly qualifications = [
-  {
-    "institution": "Thiagarajar College of Engineering",
-    "degree": "BTech in Computer Science and Business Systems",
-    "location": "Madurai, Tamil Nadu, India",
-    "completionYear": 2024,
-    "gradingSystem": "CGPA",
-    "marks": "8.57 / 10"
-  },
   {
     "institution": "Kendriya Vidyalaya",
     "degree": "10th Grade",
@@ -32,6 +35,14 @@ export class QualificationsComponent {
     "completionYear": 2020,
     "gradingSystem": "Out of 500",
     "marks": "94.2 / 500"
+  },
+  {
+    "institution": "Thiagarajar College of Engineering",
+    "degree": "BTech in Computer Science and Business Systems",
+    "location": "Madurai, Tamil Nadu, India",
+    "completionYear": 2024,
+    "gradingSystem": "CGPA",
+    "marks": "8.57 / 10"
   }
 ]
 

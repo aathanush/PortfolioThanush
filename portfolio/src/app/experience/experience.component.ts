@@ -4,7 +4,6 @@ import {FormsModule} from '@angular/forms';
 import {TuiTitle} from '@taiga-ui/core';  
 import { TuiAccordion } from '@taiga-ui/kit';
 import {TuiConnected} from '@taiga-ui/kit';
-import {TuiCell} from '@taiga-ui/layout';
 @Component({
   selector: 'app-experience',
   imports: [
