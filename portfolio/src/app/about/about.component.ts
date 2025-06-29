@@ -10,7 +10,7 @@ import {TuiCardLarge, TuiHeader} from '@taiga-ui/layout';
 
 @Component({
   selector: 'app-about',
-  imports: [TuiHeader, TuiTitle,TuiIcon,TuiAvatar,TuiAppearance,TuiTitle],
+  imports: [TuiHeader, TuiTitle,TuiIcon,TuiAvatar,TuiAppearance,TuiTitle, TuiLink],
   templateUrl: './about.component.html',
   styleUrl: './about.component.css'
 })
